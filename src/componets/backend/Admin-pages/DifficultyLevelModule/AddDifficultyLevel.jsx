@@ -62,7 +62,7 @@ function AddDifficultyLevel({ addNewDifficultyLevels }) {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/auth/difficultyLevel/difficultyLevel",
+        "https://srs-server-lac.vercel.app/api/auth/difficultyLevel/difficultyLevel",
         {
           method: "POST",
           headers: {

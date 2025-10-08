@@ -19,7 +19,7 @@ const SubTopic = ({ topic }) => {
       setLoading(true);
       try {
         const response = await fetch(
-          `http://localhost:5000/api/auth/subtopic/subtopic/${topic._id}`
+          `https://srs-server-lac.vercel.app/api/auth/subtopic/subtopic/${topic._id}`
         );
         if (!response.ok) {
           throw new Error("Failed to fetch Sub  Topics");

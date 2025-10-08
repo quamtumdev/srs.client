@@ -135,7 +135,7 @@ const AddStudentModal = ({ onClose, onSuccess }) => {
       };
 
       const response = await axios.post(
-        "http://localhost:5000/api/auth/studentRegistration/register",
+        "https://srs-server-lac.vercel.app/api/auth/studentRegistration/register",
         studentData
       );
 

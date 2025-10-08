@@ -69,7 +69,7 @@ function AddSubTopic({ addNewSubTopicsUnit, topicId }) {
     try {
       // Send POST request to the backend to save the new inner subject unit
       const response = await fetch(
-        "http://localhost:5000/api/auth/subtopic/subtopic/",
+        "https://srs-server-lac.vercel.app/api/auth/subtopic/subtopic/",
         {
           method: "POST",
           headers: {

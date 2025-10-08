@@ -287,7 +287,7 @@ function AddTopic({ addNewTopics }) {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/auth/topic/topic",
+        "https://srs-server-lac.vercel.app/api/auth/topic/topic",
         {
           method: "POST",
           headers: {

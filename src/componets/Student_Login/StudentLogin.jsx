@@ -24,7 +24,7 @@ const StudentLogin = () => {
   });
 
   // API Base URL
-  const API_BASE = "http://localhost:5000/api/student-auth";
+  const API_BASE = "https://srs-server-lac.vercel.app/api/student-auth";
 
   // Toast functions
   const showToast = (message, type = "info") => {

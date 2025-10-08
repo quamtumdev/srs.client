@@ -21,7 +21,7 @@ const MyCourses = () => {
 
       // Fetch courses from backend
       const response = await axios.get(
-        `http://localhost:5000/api/course/student/${studentData.id}/courses`
+        `https://srs-server-lac.vercel.app/api/course/student/${studentData.id}/courses`
       );
 
       if (response.data.success) {

@@ -61,7 +61,7 @@ const AssignmentDashboard = () => {
 
       // Backend API call for subject assignments
       const response = await axios.get(
-        `http://localhost:5000/api/assignments/student/${studentId}/subject/${id}/assignments`,
+        `https://srs-server-lac.vercel.app/api/assignments/student/${studentId}/subject/${id}/assignments`,
         { timeout: 10000 }
       );
 

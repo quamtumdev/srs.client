@@ -44,7 +44,7 @@ const TestList = () => {
       setError(null); // Reset any previous errors
 
       try {
-        let url = "http://localhost:5000/api/auth/testlists"; // Default URL
+        let url = "https://srs-server-lac.vercel.app/api/auth/testlists"; // Default URL
         const filters = [];
 
         // Add selectedTestType to filters if it exists

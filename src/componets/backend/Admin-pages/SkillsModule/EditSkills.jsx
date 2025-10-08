@@ -50,7 +50,7 @@ const EditSkills = ({ skills, setSkillsData, closeEditModal }) => {
       };
 
       const response = await fetch(
-        `http://localhost:5000/api/auth/skills/skills/${skills._id}`,
+        `https://srs-server-lac.vercel.app/api/auth/skills/skills/${skills._id}`,
         {
           method: "PUT",
           headers: {
@@ -92,7 +92,7 @@ const EditSkills = ({ skills, setSkillsData, closeEditModal }) => {
     if (confirmDelete) {
       try {
         const response = await fetch(
-          `http://localhost:5000/api/auth/skills/skills/${skills._id}`,
+          `https://srs-server-lac.vercel.app/api/auth/skills/skills/${skills._id}`,
           {
             method: "DELETE",
             headers: {

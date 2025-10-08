@@ -24,7 +24,7 @@ const StudentAssignment = () => {
 
       const studentData = JSON.parse(storedStudentData);
       const response = await axios.get(
-        `http://localhost:5000/api/assignments/student/${studentData.id}/assignments`
+        `https://srs-server-lac.vercel.app/api/assignments/student/${studentData.id}/assignments`
       );
 
       if (response.data.success) {
