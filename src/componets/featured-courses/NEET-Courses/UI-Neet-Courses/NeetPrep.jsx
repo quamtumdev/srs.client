@@ -1,4 +1,4 @@
-import { LuArrowUpRightFromCircle } from "react-icons/lu";
+import { LuArrowUpRight } from "react-icons/lu";
 import { Link } from "react-router-dom";
 import "../../../../custom.css";
 const NeetPrep = () => {
@@ -27,7 +27,7 @@ const NeetPrep = () => {
             <div id="collapseOne" className="card-collapse collapse">
               <div className="award-list jee-award-list d-flex align-items-center">
                 <span className="award-icon jee-icon">
-                  <LuArrowUpRightFromCircle className="iconCheckDone  arrow-icon-jee text-skyblue" />
+                  <LuArrowUpRight className="iconCheckDone  arrow-icon-jee text-skyblue" />
                 </span>
                 <p>
                   Our interactive classroom programs are expertly designed,
@@ -51,7 +51,7 @@ const NeetPrep = () => {
             <div id="course2" className="card-collapse collapse">
               <div className="award-list jee-award-list d-flex align-items-center">
                 <span className="award-icon jee-icon">
-                  <LuArrowUpRightFromCircle className="iconCheckDone  arrow-icon-jee text-skyblue" />
+                  <LuArrowUpRight className="iconCheckDone  arrow-icon-jee text-skyblue" />
                 </span>
                 <p>
                   Focuses on boosting confidence of students for facing National
@@ -76,7 +76,7 @@ const NeetPrep = () => {
             <div id="course3" className="card-collapse collapse">
               <div className="award-list jee-award-list d-flex align-items-center">
                 <span className="award-icon jee-icon">
-                  <LuArrowUpRightFromCircle className="iconCheckDone  arrow-icon-jee text-skyblue" />
+                  <LuArrowUpRight className="iconCheckDone  arrow-icon-jee text-skyblue" />
                 </span>
                 <p>
                   Online Test Series (OTS) is designed according to NEET Main +
@@ -112,7 +112,7 @@ const NeetPrep = () => {
             <div id="collapse1" className="card-collapse collapse">
               <div className="award-list jee-award-list d-flex align-items-center">
                 <span className="award-icon jee-icon">
-                  <LuArrowUpRightFromCircle className="iconCheckDone  arrow-icon-jee text-skyblue" />
+                  <LuArrowUpRight className="iconCheckDone  arrow-icon-jee text-skyblue" />
                 </span>
                 <p>
                   Attend live classroom and study online anytime, anywhere with
@@ -137,7 +137,7 @@ const NeetPrep = () => {
             <div id="course02" className="card-collapse collapse">
               <div className="award-list jee-award-list d-flex align-items-center">
                 <span className="award-icon jee-icon">
-                  <LuArrowUpRightFromCircle className="iconCheckDone  arrow-icon-jee text-skyblue" />
+                  <LuArrowUpRight className="iconCheckDone  arrow-icon-jee text-skyblue" />
                 </span>
                 <p>
                   Get all your doubts answered instantly during and after
@@ -162,7 +162,7 @@ const NeetPrep = () => {
             <div id="course03" className="card-collapse collapse">
               <div className="award-list jee-award-list d-flex align-items-center">
                 <span className="award-icon jee-icon">
-                  <LuArrowUpRightFromCircle className="iconCheckDone  arrow-icon-jee text-skyblue" />
+                  <LuArrowUpRight className="iconCheckDone  arrow-icon-jee text-skyblue" />
                 </span>
                 <p>
                   Analyze your performance in mock test conducted regularly

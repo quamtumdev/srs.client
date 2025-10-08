@@ -1,7 +1,7 @@
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { useState } from "react";
-import { LuArrowUpRightFromCircle } from "react-icons/lu";
+import { LuArrowUpRight } from "react-icons/lu";
 import { FaArrowRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import FormOlympiad from "./UI-Olympiads-program/FormOlympiad";
@@ -2047,7 +2047,7 @@ const OlympiadsclassName5 = () => {
               <div id="course2" className="card-collapse collapse">
                 <div className="award-list jee-award-list d-flex align-items-center">
                   <span className="award-icon jee-icon">
-                    <LuArrowUpRightFromCircle className="iconCheckDone  arrow-icon-jee text-skyblue" />
+                    <LuArrowUpRight className="iconCheckDone  arrow-icon-jee text-skyblue" />
                   </span>
                   <p>
                     Subjects covered under micro courses are- Science,
@@ -2070,7 +2070,7 @@ const OlympiadsclassName5 = () => {
               <div id="course3" className="card-collapse collapse">
                 <div className="award-list jee-award-list d-flex align-items-center">
                   <span className="award-icon jee-icon">
-                    <LuArrowUpRightFromCircle className="iconCheckDone  arrow-icon-jee text-skyblue" />
+                    <LuArrowUpRight className="iconCheckDone  arrow-icon-jee text-skyblue" />
                   </span>
                   <p>
                     Services provided under micro courses- Recorded Lectures,

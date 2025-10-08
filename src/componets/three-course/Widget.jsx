@@ -1,4 +1,4 @@
-import { LuSchool2 } from "react-icons/lu";
+import { LuSchool } from "react-icons/lu";
 import { PiStudentDuotone } from "react-icons/pi";
 import { MdContentPaste } from "react-icons/md";
 import { RiGroupFill } from "react-icons/ri";
@@ -16,7 +16,7 @@ export const Widget = () => {
                   <div className="align-items-center">
                     <div className="course-count-three course-count ms-0">
                       <div className="course-img">
-                        <LuSchool2 className="courses-img-icons text-blue" />
+                        <LuSchool className="courses-img-icons text-blue" />
                       </div>
                       <div className="course-content-three">
                         <h4 className="text-dark">
